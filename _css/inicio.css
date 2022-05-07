@@ -7,6 +7,9 @@ body {
 div#blue{
     background-color: #1a1733;
     margin: 3px;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px #bbb;
 }
 div#azul{
   background-color: #1a1733;
@@ -43,9 +46,9 @@ div#interface{
   }
   header#cabecalho img#marca{
     position: absolute;
-    left: -10px; 
-    top: -10px;
-
+    left: -3px;
+    top: 6px;
+    width: 150px;
   }
  /*Formatação do menu*/
   nav#menu {
@@ -81,6 +84,8 @@ article#noticia-principal h2{
     position: absolute;
     left: 690px;
     top: 130px;
+    width: 42%;
+    text-align: justify;
    }
    header#cabecalho-artigo li{
     margin: 0px;
