@@ -67,11 +67,7 @@ div#interface{
       top: -10px;
       left: 450px;
   }
-  nav#menu li{
-      display: inline-block;
-      padding: 10px;
-      margin: 20px;
-  }
+ 
   nav#menu h1{
     display: none;
 }
@@ -130,16 +126,22 @@ article#noticia-principal h2{
    }
    
    /*Botões*/
-
+   .btn {
+     margin-left: 250px;
+     padding: 2px;
+     position: relative;
+     margin-top: 30px;
+    
+   }
    .efeito {
      border: none;
-     color: #1a1733;
+     color: #ffffff;
      padding: 10px;
-     margin: 10px;
+     margin: 1px;
      font-size: 20px;
-     line-height: 10px;
+     line-height: 24px;
      border-radius: 10px;
-     position: absolute;
+     position: relative;
      box-sizing: border-box;
      cursor: pointer;
      transition: all 400ms ease;
@@ -147,8 +149,18 @@ article#noticia-principal h2{
    .efeito-1 {
      background-color: #1a1733;
    }
-   .efeito:hover {
-     background: rgb(0,0,0,0);
-     color: #1a1733;
-     box-shadow: inset 0 0 0 3px;
+   .efeito-1:before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 0px;
+      height: 64px;
+      background: rgb(255, 255,255.0.3);
+      border-radius: 10px;
+      transition: all 2s ease;
+   }
+   .efeito-1:hover:before {
+      width: 100%;
+  
    }
