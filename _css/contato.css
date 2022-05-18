@@ -16,8 +16,108 @@ div#branca {
     border-radius:  5px;
     
 }
+/*setas*/
 div#seta {
     position: absolute;
     left: 480px;
     top: 215px;
+}
+div#seta1 {
+    position: absolute;
+    left: 200px;
+    top: 410px;
+}
+div#bebe img{
+    position: absolute;
+    left: 600px;
+    top: 170px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+/*Formatação roxa*/
+
+div#mapa img{
+    position: absolute;
+    left: 690px;
+    top: 170px;
+}
+div#mapa p {
+    position: absolute;
+    left: 660px;
+    top: 100px;
+    background-color: rgb(102, 77, 124);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+div#telefone img {
+    position: absolute;
+    left: 995px;
+    top: 170px;
+}
+div#telefone p{
+    position: absolute;
+    left: 989px;
+    top: 110px;
+    background-color: rgb(102, 77, 124);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+div#email img {
+    position: absolute;
+    left: 690px;
+    top: 370px;
+}
+div#email p {
+    position: absolute;
+    left: 660px;
+    top: 300px;
+    background-color: rgb(102, 77, 124);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+div#instagram img {
+    position: absolute;
+    left: 995px;
+    top: 370px;   
+}
+div#instagram p{
+    position: absolute;
+    left: 990px;
+    top: 300px;
+    background-color: rgb(102, 77, 124);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*Animação*/
+
+.imagem1 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.imagem1:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.imagem {
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagem:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+/*Mapa*/
+.mapinha iframe {
+    position: absolute;
+    left: 45px;
+    top: 525px;
+    width: 540px;
+   
+ 
 }
