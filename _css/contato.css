@@ -8,26 +8,30 @@ img#imagem {
     left: 10px;
     padding: 20px;
 }
+
 div#branca {
     box-shadow: 1px 1px 2px 2px #bbb;
     width: 1200px;
     height: 900px;
     margin: 20px;
-    border-radius:  5px;
-    
+    border-radius: 5px;
+
 }
+
 /*setas*/
 div#seta {
     position: absolute;
     left: 480px;
     top: 215px;
 }
+
 div#seta1 {
     position: absolute;
     left: 200px;
     top: 410px;
 }
-div#bebe img{
+
+div#bebe img {
     position: absolute;
     left: 600px;
     top: 170px;
@@ -35,13 +39,15 @@ div#bebe img{
     height: 400px;
     border-radius: 10px;
 }
+
 /*Formatação roxa*/
 
-div#mapa img{
+div#mapa img {
     position: absolute;
     left: 690px;
     top: 170px;
 }
+
 div#mapa p {
     position: absolute;
     left: 660px;
@@ -51,12 +57,14 @@ div#mapa p {
     padding: 10px;
     border-radius: 10px;
 }
+
 div#telefone img {
     position: absolute;
     left: 995px;
     top: 170px;
 }
-div#telefone p{
+
+div#telefone p {
     position: absolute;
     left: 989px;
     top: 110px;
@@ -65,11 +73,13 @@ div#telefone p{
     padding: 10px;
     border-radius: 10px;
 }
+
 div#email img {
     position: absolute;
     left: 690px;
     top: 370px;
 }
+
 div#email p {
     position: absolute;
     left: 660px;
@@ -79,12 +89,14 @@ div#email p {
     padding: 10px;
     border-radius: 10px;
 }
+
 div#instagram img {
     position: absolute;
     left: 995px;
-    top: 370px;   
+    top: 370px;
 }
-div#instagram p{
+
+div#instagram p {
     position: absolute;
     left: 990px;
     top: 300px;
@@ -93,31 +105,50 @@ div#instagram p{
     padding: 10px;
     border-radius: 10px;
 }
+
 /*Animação*/
 
 .imagem1 {
     transition: all 0.5s;
     cursor: pointer;
 }
+
 .imagem1:hover {
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 .imagem {
     transition: all 1s;
     cursor: pointer;
 }
+
 .imagem:hover {
     -webkit-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
 }
+
 /*Mapa*/
 .mapinha iframe {
     position: absolute;
-    left: 45px;
-    top: 525px;
-    width: 540px;
-   
- 
+    left: 600px;
+    top: 600px;
+    width: 600px;
+    height: 300px;
 }
+div#formulario h1 {
+    color: rgb(61, 38, 71);
+    font-family: italic;
+    margin-left: 95px;
+    position: absolute;
+    top: 500px;
+}
+
+div#formulario fieldset {
+    width: 400px;
+    position: absolute;
+    top: 590px;
+    left: 80px;
+
+}
+
