@@ -146,9 +146,30 @@ div#formulario h1 {
 
 div#formulario fieldset {
     width: 400px;
+    height: 290px;
     position: absolute;
-    top: 590px;
+    top: 600px;
     left: 80px;
+    background-color: aquamarine;
 
 }
+div#botao button {
+    position: absolute;
+    top: 270px;
+    left: 165px;
+}
+textarea#swal-input2 {
+    width: 365px;
+}
 
+div#verde {
+    background-color: aquamarine;
+    width: 400px;
+    position: absolute;
+    left: 100px;
+    top: 640px;
+}
+
+label {
+    margin-left: 20px;
+}
