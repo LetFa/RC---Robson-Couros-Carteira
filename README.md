@@ -1,9 +1,11 @@
 ﻿# Projeto Site de Couros, Carteiras e Acessórios📁
 
 - Venha conhecer o meu site ✔️
-- Utilizando *HTML* e *CSS*; ⤵️
+- Utilizando *HTML* e *CSS* ⤵️
 
-![icons8-codificação-laptop-100](https://user-images.githubusercontent.com/101723189/169597908-c42afc67-f1e8-423b-829a-70005f9c41a5.png) ![icons8-ficheiro-css-100](https://user-images.githubusercontent.com/101723189/169598035-2e13a0f7-c5a7-468e-8f06-91e74565a2f8.png)
+     ![icons8-html-5-48 (1)](https://user-images.githubusercontent.com/101723189/170382900-69e3db70-1ee0-4122-94e3-faae3b851473.png) ![icons8-css3-48 (1)](https://user-images.githubusercontent.com/101723189/170382940-769b8787-3839-4e31-9701-0b2d0c24758d.png)
+
+
 
 
 ![image](https://user-images.githubusercontent.com/101723189/169603114-9c2783c2-0ac1-4814-9bde-8ff0dc50af1c.png)
