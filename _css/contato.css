@@ -143,33 +143,69 @@ div#formulario h1 {
     position: absolute;
     top: 500px;
 }
-
-div#formulario fieldset {
-    width: 400px;
-    height: 290px;
-    position: absolute;
-    top: 600px;
-    left: 80px;
-    background-color: aquamarine;
-
+div label{
+   margin-left: 4px
 }
 div#botao button {
     position: absolute;
-    top: 270px;
-    left: 165px;
+    top: 330px;
+    left: 100px;
+    width: 200px;
+  
 }
 textarea#swal-input2 {
     width: 365px;
 }
-
-div#verde {
-    background-color: aquamarine;
-    width: 400px;
-    position: absolute;
-    left: 100px;
-    top: 640px;
+textarea {
+    margin-left: 4px;
+   
+    background-color: aliceblue;
 }
 
+div#verde {
+    background-color: rgb(127, 150, 255);
+    width: 400px;
+    height: 370px;
+    position: absolute;
+    left: 60px;
+    top: 530px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #bbb;
+}
+legend {
+    color: rgb(19, 19, 223);
+    background: aliceblue;
+    padding: 4px;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
 label {
     margin-left: 20px;
+    color: rgb(19, 20, 20);
+}
+input {
+    width: 300px;
+    padding: 2px;
+  
+}
+
+main {
+    text-align: center;
+
+}
+/*Formatando o Watts*/
+
+div#zap img{
+    position: absolute;
+    left: 70px;
+    top: 970px;
+}
+div#zap p {
+    position: absolute;
+    left: 130px;
+    top: 800px;
+    color: rgb(8, 139, 96);
+    background-color: white;
+    box-shadow: 3px 3px 3px #bbb;
 }
