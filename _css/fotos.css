@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+header#cabecalho-artigo h1 {
+    color: rgb(41, 43, 68);
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #bbb;
+    margin-left: 500px;
+    width: 270px;
+    padding: 10px;
+}
+div#camera img {
+    position: absolute;
+    left: 740px;
+    top: 130px;
+}
