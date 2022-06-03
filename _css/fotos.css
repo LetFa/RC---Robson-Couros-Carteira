@@ -14,41 +14,42 @@ div#camera img {
     left: 740px;
     top: 130px;
 }
-div#papel-parede img {
-    position: absolute;
-    left: 400px;
-    top: 110px;
-    
+
+/* class*/
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #292c41;
+    width: 1230px;
+    margin: 0 auto;
+    margin-top: 15px;
 }
-div#branco {
-    box-shadow: 1px 1px 2px 2px #bbb;
-    width: 1200px;
-    height: 900px;
-    margin: 20px;
-    border-radius: 5px;
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.conteudo-principal-imagem {
+    width: 300px;
+    margin: 40px;
+    margin-left: 2px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.conteudo-principal-imagem:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
-div#area img{
-    width: 350px;
-    position: absolute;
-    left: 120px;
-    top: 270px;
-    border-radius: 10px;
-    background-color: aliceblue;
-    padding: 10px;
+.conteudo-principal-imagem2 {
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
-div#carteira img {
-    position: absolute;
-    left: 530px;
-    top: 290px;
-    border-radius: 10px;
-    background-color: aliceblue;
-    padding: 10px;
-}
-div#cor-fundo img {
-    width: 1200px;
-    border-radius: 5px;
+.conteudo-principal-imagem2:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,0.5));
 }
 
  /* Formatação do zoom*/
