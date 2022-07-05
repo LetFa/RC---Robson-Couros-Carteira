@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*Navs*/
+#nav-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.container {
+    padding: 70px 0px;
+}
+header, .navbar {
+    background-color: white;
+    box-shadow: rgb(187, 187, 187) 3px 3px 3px;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-brand {
+    color: white;
+    padding: 0px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.navbar-nav a{
+    color: rgb(26, 31, 82);
+}

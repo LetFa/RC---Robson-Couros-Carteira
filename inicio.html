@@ -6,74 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RC Robson Couros</title>
-    <link rel="stylesheet" href="_css/inicio.css">
+    <!--font--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!--css bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/inicio.css">
+
+    <!--script-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+    <!--Progress bar-->
+    <script src="js/progressbar.min.js"></script>
+
+    <!--Parallax-->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
 </head>
-
 <body>
-    <div id="interface">
-        <header id="cabecalho">
-            <hgroup>
-                <img id="marca" src="_imagem/icone.jpg">
-                </br>
-            </hgroup>
-            <nav id="menu">
-                <h1>Menu Principal</h1>
-                <ul>
-                    <div class="iten-menu">
-                        <a href="inicio.html"> 
-                            <button type="button" class="efeito" efeito-1>Página incial</button>
-                        </a>
-                        <a href="robson.html"> 
-                            <button type="button" class="efeito" efeito-1>Sobre nós</button>
-                        </a>
-                        <a href="fotos.html"> 
-                            <button type="button" class="efeito" efeito-1>Fotos</button>
-                        </a>
-                        <a href="loja.html"> 
-                            <button type="button" class="efeito" efeito-1>Loja</button>
-                        </a>
-                        <a href="contato.html"> 
-                            <button type="button" class="efeito" efeito-1>contato</button>
-                        </a>
-                    </div>
-                </ul>
-            </nav>
-        </header>
+   <header>
+    <div class="container" id="nav-container">
+       <nav class="navbar navbar-expand-lg fixed-top">
+        <a href="#" class="navbar-brand">
+            <img src="_imagem/logo.jpg" style="width: 120px;" alt="Robson Couros">
+        </a>
+        <button class="navbar-toggler" type="button" data-taggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggle-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links"></div>
+         <div class="navbar-nav">
+           <a href="#" class="nav-item nav-link" id="inicio-menu">Início</a>
+           <a href="#" class="nav-item nav-link" id="robson-menu">Sobre nós</a>
+           <a href="#" class="nav-item nav-link" id="foto-menu">Fotos</a>
+           <a href="#" class="nav-item nav-link" id="loja-menu">Loja</a>
+           <a href="#" class="nav-item nav-link" id="contato-menu">Contato</a>
+         </div>
+       </nav>
     </div>
-    </br>
-    <section id="corpo">
-        <article id="noticia-principal">
-            <header id="cabecalho-artigo">
-                <div id="blue">
-                    <img src="_imagem/inicio.jpeg">
-                    <hgroup>
-                        <h3 id="direita">Couros &nbsp;> Acessórios</h3>
-                        <br>
-                        <h1 class="direita">Projeto - Robson Couros</h1>
-                        <h2 class="direita">Serviços</h2>
-                        <li class="direita">Carteira em couros</li>
-                        <li id="li2" class="direita">Pulseiras de Relógios</li>
-                        <li id="li3" class="direita">Acessórios em couros</li>
-                        <p class="direita">
-                            A RC Couros produz acessórios com design exclusivo,
-                            sendo todos feitos à mão em couro nobre legítimo.
-                            Isso garante sua satisfação e conforto. O uso de acessórios para o homem
-                            reflete uma imagem de elegância e praticidade, especialmente no mundo
-                            corporativo ou pessoal.
-                        </p>
-                    </hgroup>
-    </section>
-    </div>
-    <div id="azul">
-        <img id="couro" src="_imagem/couro1.jpeg">
-        <img id="couro3" src="_imagem/couro3.jpeg">
-        <img id="couro2" src="_imagem/couro2.jpeg">
-
-    </div>
-    <hr>
-    <footer id="rodape">
-        <p>Copyright &copy; 2022 Robson Couros - by Letícia Farias<br />
-    </footer>
+   </header>
 </body>
-
 </html>
