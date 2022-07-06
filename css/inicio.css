@@ -147,6 +147,9 @@ input[type="hidden" i] {
   left: 290px;
 }
 
+.footer__copyright {
+    text-align: right;
+}
 
 
 
