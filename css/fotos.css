@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+.fundo-preto {
+    background-color: black;
+}
+
+/*Navs*/
+
+.navbar-nav a {
+    color: white;
+    margin-left: 10px;
+    font-size: 11pt;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.navbar {
+    padding: 1px;
+}
